@@ -1,6 +1,4 @@
-
 #ChromeBook Crouton代理
-****
 ###今天正好有空写个教程，通过crouton方式专门给arm架构带chrome系统的chrome本，平板电脑，树莓派使用上Ubuntu系统（chrome os 内部包含）。执行的下一步动作的话先下载crouton https://github.com/dnschneid/crouton
 ###1. Unity：
 ####Ubuntu 12.04 with Unity (2D)：sudo sh -e ~/Downloads/crouton -r precise -t unity -e
@@ -19,6 +17,5 @@
 ####接着等待安装结束后在终端输入sudo startxfce就可以了
 ###参考：http://tieba.baidu.com/p/3490991713?pid=62200356240&cid=62661091999#62661091999
 ###参考原作者 url https://github.com/dnschneid/crouton/raw/releases/$INSTALLER
-***
 ####crouton.proxy 请用pac，我已经上传到百度云，可以下载下来用notepad++或者sublime修改。在 第 84行的 sed -i '/Execute the main script inline/ased -i '\''s/wget -O /wget -e "https_proxy=http:\\/\\/pac.xxxx.com:25\\/" -O /g'\'' $SCRIPTDIR/targets/audio' "$CACHEFILE" “pac.xxx.com”指的是你代理地址，自己可以通过vps搭建，或者用ip地址也行。
 ###百度云：http://pan.baidu.com/s/1bnIyMa7 密码：jdj6
