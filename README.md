@@ -1,26 +1,24 @@
 
-##ChromeBook Crouton´úÀí
-
-½ñÌìÕıºÃÓĞ¿Õ Ğ´¸ö½Ì³Ì£¬Í¨¹ıcrouton·½Ê½×¨ÃÅ¸øarm¼Ü¹¹´øchromeÏµÍ³µÄchrome±¾£¬Æ½°åµçÄÔ£¬Ê÷İ®ÅÉÊ¹ÓÃÉÏUbuntuÏµÍ³£¨chrome os ÄÚ²¿°üº¬£©¡£Ö´ĞĞµÄÏÂÒ»²½¶¯×÷µÄ»°ÏÈÏÂÔØcrouton https://github.com/dnschneid/crouton
-1. Unity£º
-Ubuntu 12.04 with Unity (2D)£ºsudo sh -e ~/Downloads/crouton -r precise -t unity -e
-£¨arm¼Ü¹¹unity×î¶àÖ§³Ö12.04£©
-2.Xfce£º
-Ubuntu 14.04 with Xfce£ºsudo sh -e ~/Downloads/crouton -r trusty -t xfce -e
-3. kubuntu£º sudo sh -e ~/Downloads/crouton -t kde 
-´¥ÃşÆÁ¿ÉÒÔÊÔsudo sh -e ~/Downloads/crouton -t touch,kde
-ÀàËÆµÄ¿ÉÒÔ°²×°gnome (GNOME Shell), cinnamon, lxdeµÈ·¢ĞĞ°æ±¾¡£¡£¡£
-²Î¿¼£º1. http://www.linux.com/learn/tutorials/795730-how-to-easily-install-ubuntu-on-chromebook-with-crouton
-2. http://www.webupd8.org/2013/12/install-ubuntu-on-your-chromebook-using.html
-ÇëÎñ±ØÊ¹ÓÃ¹úÄÚÔ´£ºmirrors.ustc.edu.cn/ubuntu/ubuntu
-µ÷³öÖÕ¶Ë£¬ÔÚ¼üÅÌÉÏ°´ctrl+alt+T ²Î¿¼ÏÂÎÒµÄÃüÁî£º±ÈÈç°²×°Ubuntu14.04µÄ»° sudo sh -e ~/Downloads/crouton -r trusty -t xfce -e -m http://mirrors.ustc.edu.cn/ubuntu/ubuntu/
--mµÄÒâË¼ÊÇÖ¸ÏòÔ´µØÖ·
-½Ó×ÅµÈ´ı°²×°½áÊøºóÔÚÖÕ¶ËÊäÈësudo startxfce¾Í¿ÉÒÔÁË
-²Î¿¼£ºhttp://tieba.baidu.com/p/3490991713?pid=62200356240&cid=62661091999#62661091999
-
-
-²Î¿¼Ô­×÷Õß url https://github.com/dnschneid/crouton/raw/releases/$INSTALLER
-
-
-crouton.proxy ÇëÓÃpac£¬ÎÒÒÑ¾­ÉÏ´«µ½°Ù¶ÈÔÆ£¬¿ÉÒÔÏÂÔØÏÂÀ´ÓÃnotepad++»òÕßsublimeĞŞ¸Ä¡£ÔÚ µÚ 84ĞĞµÄ sed -i '/Execute the main script inline/ased -i '\''s/wget -O /wget -e "https_proxy=http:\\/\\/pac.xxxx.com:25\\/" -O /g'\'' $SCRIPTDIR/targets/audio' "$CACHEFILE" ¡°pac.xxx.com¡±Ö¸µÄÊÇÄã´úÀíµØÖ·£¬×Ô¼º¿ÉÒÔÍ¨¹ıvps´î½¨£¬»òÕßÓÃipµØÖ·Ò²ĞĞ¡£
-°Ù¶ÈÔÆ£ºhttp://pan.baidu.com/s/1bnIyMa7 ÃÜÂë£ºjdj6
+#ChromeBook Croutonä»£ç†
+****
+###ä»Šå¤©æ­£å¥½æœ‰ç©ºå†™ä¸ªæ•™ç¨‹ï¼Œé€šè¿‡croutonæ–¹å¼ä¸“é—¨ç»™armæ¶æ„å¸¦chromeç³»ç»Ÿçš„chromeæœ¬ï¼Œå¹³æ¿ç”µè„‘ï¼Œæ ‘è“æ´¾ä½¿ç”¨ä¸ŠUbuntuç³»ç»Ÿï¼ˆchrome os å†…éƒ¨åŒ…å«ï¼‰ã€‚æ‰§è¡Œçš„ä¸‹ä¸€æ­¥åŠ¨ä½œçš„è¯å…ˆä¸‹è½½crouton https://github.com/dnschneid/crouton
+###1. Unityï¼š
+####Ubuntu 12.04 with Unity (2D)ï¼šsudo sh -e ~/Downloads/crouton -r precise -t unity -e
+####ï¼ˆarmæ¶æ„unityæœ€å¤šæ”¯æŒ12.04ï¼‰
+###2.Xfceï¼š
+####Ubuntu 14.04 with Xfceï¼šsudo sh -e ~/Downloads/crouton -r trusty -t xfce -e
+###3. kubuntuï¼š sudo sh -e ~/Downloads/crouton -t kde 
+####è§¦æ‘¸å±å¯ä»¥è¯•sudo sh -e ~/Downloads/crouton -t touch,kde
+####ç±»ä¼¼çš„å¯ä»¥å®‰è£…gnome (GNOME Shell), cinnamon, lxdeç­‰å‘è¡Œç‰ˆæœ¬ã€‚ã€‚ã€‚
+##å‚è€ƒï¼š
+###1. http://www.linux.com/learn/tutorials/795730-how-to-easily-install-ubuntu-on-chromebook-with-crouton
+###2. http://www.webupd8.org/2013/12/install-ubuntu-on-your-chromebook-using.html
+####è¯·åŠ¡å¿…ä½¿ç”¨å›½å†…æºï¼šmirrors.ustc.edu.cn/ubuntu/ubuntu
+####è°ƒå‡ºç»ˆç«¯ï¼Œåœ¨é”®ç›˜ä¸ŠæŒ‰ctrl+alt+T å‚è€ƒä¸‹æˆ‘çš„å‘½ä»¤ï¼šæ¯”å¦‚å®‰è£…Ubuntu14.04çš„è¯ sudo sh -e ~/Downloads/crouton -r trusty -t xfce -e -m http://mirrors.ustc.edu.cn/ubuntu/ubuntu/
+####-mçš„æ„æ€æ˜¯æŒ‡å‘æºåœ°å€
+####æ¥ç€ç­‰å¾…å®‰è£…ç»“æŸååœ¨ç»ˆç«¯è¾“å…¥sudo startxfceå°±å¯ä»¥äº†
+###å‚è€ƒï¼šhttp://tieba.baidu.com/p/3490991713?pid=62200356240&cid=62661091999#62661091999
+###å‚è€ƒåŸä½œè€… url https://github.com/dnschneid/crouton/raw/releases/$INSTALLER
+***
+####crouton.proxy è¯·ç”¨pacï¼Œæˆ‘å·²ç»ä¸Šä¼ åˆ°ç™¾åº¦äº‘ï¼Œå¯ä»¥ä¸‹è½½ä¸‹æ¥ç”¨notepad++æˆ–è€…sublimeä¿®æ”¹ã€‚åœ¨ ç¬¬ 84è¡Œçš„ sed -i '/Execute the main script inline/ased -i '\''s/wget -O /wget -e "https_proxy=http:\\/\\/pac.xxxx.com:25\\/" -O /g'\'' $SCRIPTDIR/targets/audio' "$CACHEFILE" â€œpac.xxx.comâ€æŒ‡çš„æ˜¯ä½ ä»£ç†åœ°å€ï¼Œè‡ªå·±å¯ä»¥é€šè¿‡vpsæ­å»ºï¼Œæˆ–è€…ç”¨ipåœ°å€ä¹Ÿè¡Œã€‚
+###ç™¾åº¦äº‘ï¼šhttp://pan.baidu.com/s/1bnIyMa7 å¯†ç ï¼šjdj6
