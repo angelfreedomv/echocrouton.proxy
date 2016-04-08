@@ -1,14 +1,16 @@
 ##ChromeBook Crouton代理
 
 ####今天正好有空写个教程，通过crouton方式专门给arm架构带chrome系统的chrome本，平板电脑，树莓派使用上Ubuntu系统（chrome os 内部包含）。执行的下一步动作的话先下载crouton https://github.com/dnschneid/crouton
-1. Unity：
+* 1.Unity：
 Ubuntu 12.04 with Unity (2D)：
 `sudo sh -e ~/Downloads/crouton -r precise -t unity -e`
 （arm架构unity最多支持12.04）
-2.Xfce：
+
+* 2.Xfce：
 Ubuntu 14.04 with Xfce：
 `sudo sh -e ~/Downloads/crouton -r trusty -t xfce -e`
-3. kubuntu:  `sudo sh -e ~/Downloads/crouton -t kde` 
+
+* 3. kubuntu:  `sudo sh -e ~/Downloads/crouton -t kde` 
 触摸屏可以试`sudo sh -e ~/Downloads/crouton -t touch,kde`
 类似的可以安装gnome (GNOME Shell), cinnamon, lxde等发行版本。。。
 
