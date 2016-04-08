@@ -10,7 +10,8 @@ Ubuntu 12.04 with Unity (2D)：
 Ubuntu 14.04 with Xfce：
 `sudo sh -e ~/Downloads/crouton -r trusty -t xfce -e`
 
-* 3. kubuntu:  `sudo sh -e ~/Downloads/crouton -t kde` 
+* 3.kubuntu: 
+首选 `sudo sh -e ~/Downloads/crouton -t kde` 
 触摸屏可以试`sudo sh -e ~/Downloads/crouton -t touch,kde`
 类似的可以安装gnome (GNOME Shell), cinnamon, lxde等发行版本。。。
 
