@@ -1,6 +1,7 @@
-##ChromeBook Crouton代理
+#ChromeBook Crouton代理
 
 ####今天正好有空写个教程，通过crouton方式专门给arm架构带chrome系统的chrome本，平板电脑，树莓派使用上Ubuntu系统（chrome os 内部包含）。执行的下一步动作的话先下载crouton https://github.com/dnschneid/crouton
+
 * 1.Unity：
 Ubuntu 12.04 with Unity (2D)：
 `sudo sh -e ~/Downloads/crouton -r precise -t unity -e`
