@@ -11,6 +11,7 @@ Ubuntu 14.04 with Xfce：
 3. kubuntu:  `sudo sh -e ~/Downloads/crouton -t kde` 
 触摸屏可以试`sudo sh -e ~/Downloads/crouton -t touch,kde`
 类似的可以安装gnome (GNOME Shell), cinnamon, lxde等发行版本。。。
+
 ####参考：
 1. http://www.linux.com/learn/tutorials/795730-how-to-easily-install-ubuntu-on-chromebook-with-crouton
 2. http://www.webupd8.org/2013/12/install-ubuntu-on-your-chromebook-using.html
